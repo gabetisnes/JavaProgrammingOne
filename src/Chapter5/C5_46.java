@@ -3,7 +3,7 @@ package Chapter5;
 import java.util.Scanner;
 
 /**
- * Program to
+ * Program to enter a string and return it backwards
  *
  * @author Gabriel Tisnes
  */

@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.text.*;
 
 /**
- *
+ * Program to convert currency
  *
  * @author Gabriel Tisnes
  */

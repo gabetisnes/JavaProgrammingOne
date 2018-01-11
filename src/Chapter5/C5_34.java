@@ -3,7 +3,7 @@ package Chapter5;
 import java.util.Scanner;
 
 /**
- * Program to
+ * Program to play rock, paper, scissors
  *
  * @author Gabriel Tisnes
  */

@@ -3,7 +3,7 @@ package Chapter6;
 import java.util.Scanner;
 
 /**
- *
+ * Program for user to enter a password and check if it's valid or invalid
  *
  * @author Gabriel Tisnes
  */
