@@ -22,7 +22,12 @@ public class C5_46 {
         reverseDisplay(value);
 
     }
-
+    
+    /**
+     * Method to reverse string
+     *
+     * @param value the string submitted by the user
+     */
     private static void reverseDisplay(String value) {
         if (value.length() == 0) {
             return;

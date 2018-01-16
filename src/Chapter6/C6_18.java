@@ -24,6 +24,12 @@ public class C6_18 {
         System.out.println((isItAValidPassword(password) ? "Valid " : "Invalid ") + "Password");
     }
 
+    /**
+     * Method to check if password is valid or not
+     *
+     * @param password the password submitted by the user
+     * @return true or false if password is valid
+     */
     public static boolean isItAValidPassword(String password) {
         //minimum length of password
         int validLength = 8;
@@ -38,10 +44,24 @@ public class C6_18 {
         return validPassword;
     }
 
+    /**
+     * Main Method
+     *
+     * @param password the password submitted by the user
+     * @param validLength checks to see if the password length is valid or
+     * invalid
+     * @return true or false if length of password is valid
+     */
     public static boolean isLengthValid(String password, int validLength) {
         return password.length() >= validLength;
     }
 
+    /**
+     * Method checks to see if it has letters AND digits
+     *
+     * @param password the password submitted by the user
+     * @return true or false if password is only letter and digits
+     */
     public static boolean isOnlyLettersAndDigits(String password) {
         for (int i = 0; i < password.length(); i++) {
             if (!Character.isLetterOrDigit(password.charAt(i))) {
@@ -51,6 +71,13 @@ public class C6_18 {
         return true;
     }
 
+    /**
+     * Method to check the number of digits
+     *
+     * @param password the password submitted by the user
+     * @param n the number of digits the password is supposed to have
+     * @return true or false if password has a certain amount of digits
+     */
     public static boolean hasNDigits(String password, int n) {
         int numberOfDigits = 0;
         for (int i = 0; i < password.length(); i++) {
