@@ -7,7 +7,6 @@ import java.util.Scanner;
  *
  * @author Gabriel Tisnes
  */
-
 public class C3_14 {
 
     /**
