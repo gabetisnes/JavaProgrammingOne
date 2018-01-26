@@ -3,11 +3,11 @@ package Chapter4;
 import java.util.Scanner;
 
 /**
- * Program to decide the federal and state withholding, total deduction, and net pay
+ * Program to decide the federal and state withholding, total deduction, and net
+ * pay
  *
  * @author Gabriel Tisnes
  */
-
 public class C4_23 {
 
     /**

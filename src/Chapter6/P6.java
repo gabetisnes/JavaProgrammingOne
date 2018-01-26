@@ -36,14 +36,14 @@ public class P6 {
 
         CurrrencyConversion(Currency, numberOfDollars, Yen, Pound, Euro, input);
     }
-    
+
     /**
      * Method to convert currency to dollars
      *
      * @param numberOfDollars the amount of dollars we are converting
      * @param Yen the amount of yen we are converting
      * @param Pound the amount of pounds we are converting
-     * @param Euro 
+     * @param Euro
      */
     public static void CurrrencyConversion(String Currency, double numberOfDollars, double Yen, double Pound, double Euro, Scanner input) {
 

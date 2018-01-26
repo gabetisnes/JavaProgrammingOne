@@ -22,7 +22,7 @@ public class C5_46 {
         reverseDisplay(value);
 
     }
-    
+
     /**
      * Method to reverse string
      *

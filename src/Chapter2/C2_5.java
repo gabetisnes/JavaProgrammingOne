@@ -3,11 +3,11 @@ package Chapter2;
 import java.util.Scanner;
 
 /**
- * Program allows user to enter a subtotal and gratuity rate to show a total and gratuity money
+ * Program allows user to enter a subtotal and gratuity rate to show a total and
+ * gratuity money
  *
  * @author Gabriel Tisnes
  */
-
 public class C2_5 {
 
     /**

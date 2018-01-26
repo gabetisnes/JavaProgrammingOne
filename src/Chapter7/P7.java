@@ -41,7 +41,7 @@ public class P7 {
      * Method to display the contents of the array
      *
      * @param numbers is the input given by the user
-     * @param Scanner input is used to read the input
+     * @param input is used to read the input
      */
     public static void method2(int[] numbers, Scanner input) {
         for (int i = 0; i < numbers.length; i++) {
@@ -53,6 +53,7 @@ public class P7 {
      * Method that returns the combined average
      *
      * @param numbers is the input given by the user
+     * @return combinedAverage
      */
     public static double method3(int[] numbers) {
         double numbersSum = 0;

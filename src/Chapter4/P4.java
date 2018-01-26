@@ -3,7 +3,8 @@ package Chapter4;
 import java.util.Scanner;
 
 /**
- * Program to figure out who is the highest bidder, the second highest bidder or if the bids are equal
+ * Program to figure out who is the highest bidder, the second highest bidder or
+ * if the bids are equal
  *
  * @author Gabriel Tisnes
  */
@@ -51,5 +52,5 @@ public class P4 {
             System.out.printf("For " + firstBidder + " the amount of hours are %d and cost per hour is $%.2f and total cost is $%.2f \n", firstBidderHours, firstBidderCharge, firstCost);
             System.out.printf("For " + secondBidder + " the amount of hours are %d and cost per hour is $%.2f and total cost is $%.2f ", secondBidderHours, secondBidderCharge, secondCost);
         }
-    } 
+    }
 }
