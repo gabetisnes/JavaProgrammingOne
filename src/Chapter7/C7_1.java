@@ -49,6 +49,7 @@ public class C7_1 {
      *
      * @param grade is used for the user's grade
      * @param highScore is used for the high score in the equation
+     * @return the letter assigned for the grade
      */
     public static char assignLetterGrade(int grade, int highScore) {
 
@@ -69,6 +70,7 @@ public class C7_1 {
      * Method to get the best grade
      *
      * @param grades returns the highest grade
+     * @return the highest score
      */
     public static int bestGrade(int[] grades) {
         int highScore = grades[0];

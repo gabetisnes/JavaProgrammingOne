@@ -42,6 +42,7 @@ public class C7_26 {
      *
      * @param list1 is the first list given by user
      * @param list2 is the second list given by user
+     * @return boolean statement determining if lists are equal
      */
     public static boolean equals(int[] list1, int[] list2) {
         if (list1.length != list2.length) {
